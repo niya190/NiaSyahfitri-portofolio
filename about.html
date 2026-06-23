@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tentang Nia Syahfitri - Riwayat Pendidikan, Pengalaman Organisasi, Kredensial Sertifikasi, serta Prinsip Etika IT & Q&A.">
+    <meta name="author" content="Nia Syahfitri">
+    <title>Nia Syahfitri | About & Academic Journey</title>
+    
+    <!-- Favicon (Emoji) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+
+    <!-- Header Navigation (Permanent Solid mode) -->
+    <header class="navbar navbar-solid">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-bold">Nia</span>Syahfitri
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link active">About</a>
+                <a href="projects.html" class="nav-link">Project</a>
+                <a href="creative.html" class="nav-link">Creative</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container with Entrance Animation -->
+    <main class="page-wrapper" style="padding-top: 100px;">
+
+        <!-- Biography Section -->
+        <section id="about" class="about-section" style="padding: 60px 0;">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Biografi Lengkap</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-image-col">
+                        <div class="about-card-frame">
+                            <img src="profile.jpg" alt="Nia Syahfitri Portrait" class="about-image">
+                        </div>
+                    </div>
+                    
+                    <div class="about-info-col">
+                        <h3 class="about-headline">Mahasiswa Teknik Informatika yang Berdedikasi dan Berintegritas</h3>
+                        <p class="about-description">
+                            Saya adalah mahasiswi semester 6 Program Studi S1 Teknik Informatika di <strong>Universitas Maritim Raja Ali Haji (UMRAH)</strong>. Ketertarikan saya berpusat pada bidang pengembangan situs web (Front-End Web Development) dan perancangan antarmuka pengguna (UI/UX Design). 
+                            <br><br>
+                            Bagi saya, teknologi koding bukan sekadar baris-baris instruksi komputasi, melainkan media kreatif untuk memecahkan permasalahan dunia nyata di masyarakat—khususnya dalam memajukan operasional UMKM lokal melalui digitalisasi yang bertanggung jawab. Saya berkomitmen penuh untuk mengaplikasikan prinsip moral dan etika profesi IT dalam setiap proyek pengembangan perangkat lunak.
+                        </p>
+                        
+                        <div class="personal-info-grid">
+                            <div class="info-item">
+                                <i class="fa-solid fa-user-graduate info-icon"></i>
+                                <div class="info-text">
+                                    <span class="info-title">Nama Lengkap</span>
+                                    <span class="info-value">Nia Syahfitri</span>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <i class="fa-solid fa-envelope info-icon"></i>
+                                <div class="info-text">
+                                    <span class="info-title">Email Resmi</span>
+                                    <span class="info-value">niaasyahfitri@gmail.com</span>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <i class="fa-solid fa-university info-icon"></i>
+                                <div class="info-text">
+                                    <span class="info-title">Universitas</span>
+                                    <span class="info-value">Universitas Maritim Raja Ali Haji</span>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <i class="fa-solid fa-book-open info-icon"></i>
+                                <div class="info-text">
+                                    <span class="info-title">Program Studi</span>
+                                    <span class="info-value">Teknik Informatika</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="academic" class="academic-section" style="background-color: var(--color-white); padding: 80px 0;">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Riwayat Pendidikan</span>
+                    <h2 class="section-title">Education</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+                    
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <span class="time-period">2023 - Sekarang</span>
+                            <h3 class="timeline-title">Universitas Maritim Raja Ali Haji (UMRAH)</h3>
+                            <h4 class="timeline-subtitle">S1 Teknik Informatika - Semester 6</h4>
+                            <p class="timeline-desc">
+                                Mempelajari rekayasa perangkat lunak, sistem basis data, pemrograman web/mobile, manajemen proses bisnis, dan Etika Profesi IT. Aktif dalam tim proyek koding kolaboratif.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <span class="time-period">2020 - 2023</span>
+                            <h3 class="timeline-title">SMA Negeri 1 Bintan Timur</h3>
+                            <h4 class="timeline-subtitle">MIPA (Matematika & Ilmu Pengetahuan Alam)</h4>
+                            <p class="timeline-desc">
+                                Mengembangkan pemikiran logis dan analisis eksakta. Berpartisipasi aktif dalam kegiatan ekstrakurikuler sekolah di bidang sains dan teknologi informasi.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <span class="time-period">2017 - 2020</span>
+                            <h3 class="timeline-title">SMP Negeri 1 Bintan Timur</h3>
+                            <h4 class="timeline-subtitle">Pendidikan Menengah Pertama</h4>
+                            <p class="timeline-desc">
+                                Membangun pemahaman awal terkait komputasi dasar, logika matematika, serta pengoperasian perangkat komputer secara terstruktur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications-showcase" class="certs-section" style="padding: 80px 0; background-color: var(--color-bg-light);">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Kredensial Profesional</span>
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="certs-grid">
+                    <!-- Certificate 1 -->
+                    <div class="cert-card glass-card">
+                        <div class="cert-img-wrapper">
+                            <img src="cert1.png" alt="Data Science & Machine Learning Certificate" class="cert-image">
+                            <div class="cert-hover-overlay">
+                                <i class="fa-solid fa-maximize cert-zoom-icon"></i>
+                                <span class="cert-hover-title">Data Science & Machine Learning</span>
+                            </div>
+                        </div>
+                        <div class="cert-meta" style="padding: 15px 20px;">
+                            <h3 class="cert-title" style="font-size: 1rem; margin-bottom: 5px;">Data Science & Machine Learning Certificate</h3>
+                            <p class="cert-issuer" style="font-size: 0.8rem; color: var(--color-navy-light);"><i class="fa-solid fa-shield-halved text-secondary"></i> Indobot Academy</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Certificate 2 -->
+                    <div class="cert-card glass-card">
+                        <div class="cert-img-wrapper">
+                            <img src="cert2.png" alt="Sertifikat Anggota Divisi Organisasi Dan Kaderisasi HMTI" class="cert-image">
+                            <div class="cert-hover-overlay">
+                                <i class="fa-solid fa-maximize cert-zoom-icon"></i>
+                                <span class="cert-hover-title">Divisi Organisasi & Kaderisasi</span>
+                            </div>
+                        </div>
+                        <div class="cert-meta" style="padding: 15px 20px;">
+                            <h3 class="cert-title" style="font-size: 1rem; margin-bottom: 5px;">Anggota Divisi Organisasi Dan Kaderisasi</h3>
+                            <p class="cert-issuer" style="font-size: 0.8rem; color: var(--color-navy-light);"><i class="fa-solid fa-shield-halved text-secondary"></i> HMTI UMRAH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Ethics Section -->
+        <section id="ethics" class="ethics-section" style="padding: 80px 0; background-color: var(--color-white);">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Landasan Profesi</span>
+                    <h2 class="section-title">Professional IT Ethics</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="ethics-intro" style="text-align: center; max-width: 800px; margin: 0 auto 40px auto;">
+                    <p style="color: var(--color-navy-light); font-size: 1rem; line-height: 1.7;">
+                        Sebagai mahasiswi Teknik Informatika di Universitas Maritim Raja Ali Haji (UMRAH), saya percaya bahwa pengembangan teknologi tidak boleh lepas dari integritas moral. Berikut adalah 5 prinsip utama etika profesi IT yang saya jadikan acuan dalam koding:
+                    </p>
+                </div>
+                
+                <div class="ethics-grid">
+                    <!-- Card 1: Integritas -->
+                    <div class="ethics-card glass-card">
+                        <div class="ethics-icon-container">
+                            <i class="fa-solid fa-shield-halved ethics-icon"></i>
+                        </div>
+                        <h3 class="ethics-card-title">Integritas</h3>
+                        <p class="ethics-card-desc">
+                            Selalu bertindak jujur, transparan, dan konsisten menyelaraskan tindakan dengan komitmen kejujuran akademis maupun profesional.
+                        </p>
+                    </div>
+                    
+                    <!-- Card 2: Kerahasiaan -->
+                    <div class="ethics-card glass-card">
+                        <div class="ethics-icon-container">
+                            <i class="fa-solid fa-user-lock ethics-icon"></i>
+                        </div>
+                        <h3 class="ethics-card-title">Kerahasiaan</h3>
+                        <p class="ethics-card-desc">
+                            Menjaga dan menghargai kerahasiaan informasi sensitif serta hak privasi data pribadi pengguna sistem secara mutlak.
+                        </p>
+                    </div>
+                    
+                    <!-- Card 3: Kompetensi -->
+                    <div class="ethics-card glass-card">
+                        <div class="ethics-icon-container">
+                            <i class="fa-solid fa-award ethics-icon"></i>
+                        </div>
+                        <h3 class="ethics-card-title">Kompetensi</h3>
+                        <p class="ethics-card-desc">
+                            Berkomitmen untuk terus belajar meningkatkan wawasan, kompetensi teknis, dan standar kualitas hasil rekayasa kode.
+                        </p>
+                    </div>
+                    
+                    <!-- Card 4: Kepatuhan Hukum -->
+                    <div class="ethics-card glass-card">
+                        <div class="ethics-icon-container">
+                            <i class="fa-solid fa-gavel ethics-icon"></i>
+                        </div>
+                        <h3 class="ethics-card-title">Kepatuhan Hukum</h3>
+                        <p class="ethics-card-desc">
+                            Mematuhi regulasi hukum yang berlaku, termasuk undang-undang ITE, hak cipta software, dan hak kekayaan intelektual (HAKI).
+                        </p>
+                    </div>
+                    
+                    <!-- Card 5: Dampak Sosial -->
+                    <div class="ethics-card glass-card">
+                        <div class="ethics-icon-container">
+                            <i class="fa-solid fa-people-roof ethics-icon"></i>
+                        </div>
+                        <h3 class="ethics-card-title">Dampak Sosial</h3>
+                        <p class="ethics-card-desc">
+                            Mendesain solusi teknologi informasi yang bernilai positif bagi masyarakat dan memajukan digitalisasi UMKM lokal secara adil.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Q&A Section -->
+        <section id="qna" class="qna-section" style="background-color: var(--color-bg-light); padding: 80px 0;">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Tanya Jawab Santai</span>
+                    <h2 class="section-title">Get to Know Me (Q&A)</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="qna-container">
+                    <div class="qna-list">
+                        <!-- Q&A Item 1 -->
+                        <div class="qna-item">
+                            <button class="qna-question">
+                                <span>Kenapa memilih jurusan Teknik Informatika?</span>
+                                <i class="fa-solid fa-chevron-down qna-icon"></i>
+                            </button>
+                            <div class="qna-answer">
+                                <p>Saya sangat menyukai bagaimana baris-baris kode pemrograman dapat diterjemahkan menjadi solusi nyata untuk memecahkan berbagai permasalahan di kehidupan sehari-hari. Di Teknik Informatika, saya belajar cara berpikir logis, sistematis, dan menciptakan efisiensi melalui produk perangkat lunak.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Q&A Item 2 -->
+                        <div class="qna-item">
+                            <button class="qna-question">
+                                <span>Apa fokus keahlian koding yang paling Anda minati?</span>
+                                <i class="fa-solid fa-chevron-down qna-icon"></i>
+                            </button>
+                            <div class="qna-answer">
+                                <p>Saya sangat tertarik pada bidang Front-End Web Development dan UI/UX Design. Bagi saya, menyatukan fungsionalitas aplikasi dengan tampilan visual yang ramah pengguna (user-friendly) serta estetik merupakan tantangan kreatif yang sangat menyenangkan.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Q&A Item 3 -->
+                        <div class="qna-item">
+                            <button class="qna-question">
+                                <span>Bagaimana Anda memandang pentingnya Etika Profesi dalam dunia IT?</span>
+                                <i class="fa-solid fa-chevron-down qna-icon"></i>
+                            </button>
+                            <div class="qna-answer">
+                                <p>Teknologi informasi memiliki dampak yang sangat besar di masyarakat. Tanpa dibekali integritas, kejujuran, dan penghormatan terhadap privasi/kerahasiaan data, teknologi berpotensi untuk merugikan orang lain. Karena itu, etika profesi adalah jangkar moral yang wajib dimiliki setiap calon profesional IT.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-social-links">
+                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Nia Syahfitri. All Rights Reserved. | Mahasiswa Teknik Informatika UMRAH</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal for Certificate Preview -->
+    <div id="lightboxModal" class="lightbox-modal">
+        <button class="lightbox-close" id="lightboxCloseBtn" aria-label="Close preview">&times;</button>
+        <div class="lightbox-content-wrapper">
+            <img id="lightboxImg" src="" alt="Zoomed Certificate View" class="lightbox-img">
+            <div id="lightboxCaption" class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" class="back-to-top-btn" aria-label="Kembali ke atas">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>

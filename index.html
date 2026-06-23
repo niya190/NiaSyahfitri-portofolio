@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website Portofolio Profesional Nia Syahfitri - Mahasiswa Teknik Informatika Universitas Maritim Raja Ali Haji (UMRAH).">
+    <meta name="author" content="Nia Syahfitri">
+    <title>Nia Syahfitri | Portofolio Akademik & Etika Profesi</title>
+    
+    <!-- Favicon (Emoji) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-bold">Nia</span>Syahfitri
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Project</a>
+                <a href="creative.html" class="nav-link">Creative</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container with Entrance Animation -->
+    <main class="page-wrapper" style="padding-top: 0;">
+
+        <!-- 1. Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="background-decorations">
+                <div class="blob shape-1"></div>
+                <div class="blob shape-2"></div>
+                <div class="blob shape-3"></div>
+            </div>
+            
+            <div class="container hero-container">
+                <div class="hero-content fade-in-element">
+                    <span class="hero-badge">Selamat Datang di Portofolio Saya</span>
+                    <h1 class="hero-title">Nia Syahfitri</h1>
+                    <h2 class="hero-subtitle">Mahasiswa Teknik Informatika UMRAH</h2>
+                    <p class="hero-tagline">"Mengembangkan Solusi Teknologi yang Andal, Berintegritas, dan Menjunjung Tinggi Etika Profesi IT"</p>
+                    <div class="hero-buttons">
+                        <a href="projects.html" class="btn btn-primary">Lihat Proyek</a>
+                        <a href="about.html" class="btn btn-outline">Tentang Saya</a>
+                    </div>
+                </div>
+                
+                <!-- Framed Profile Picture on the Right Side -->
+                <div class="hero-image-col fade-in-element">
+                    <div class="hero-image-frame">
+                        <img src="profile.jpg" alt="Foto Profil Nia Syahfitri" class="hero-profile-img">
+                        <div class="hero-profile-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Dashboard Highlights Overview -->
+        <section class="dashboard-highlights" style="padding: 60px 0; background-color: var(--color-white);">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Sekilas Portofolio</span>
+                    <h2 class="section-title">Dashboard Utama</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-grid" style="align-items: stretch;">
+                    <!-- Frosted Welcome Panel -->
+                    <div class="welcome-card glass-card" style="padding: 30px; display: flex; flex-direction: column; justify-content: center; border-radius: 16px;">
+                        <h3 style="font-family: var(--font-primary); font-size: 1.5rem; margin-bottom: 15px; color: var(--color-navy-dark);">
+                            Halo, Saya Nia!
+                        </h3>
+                        <p style="color: var(--color-navy-light); font-size: 0.95rem; line-height: 1.6; margin-bottom: 20px;">
+                            Saya adalah mahasiswi semester 6 Teknik Informatika di <strong>Universitas Maritim Raja Ali Haji (UMRAH)</strong>. Fokus minat saya terletak pada <strong>Front-End Development, UI/UX Design</strong>, dan pendigitalisasian UMKM lokal. Website ini dirancang untuk mendemonstrasikan hasil proyek koding akademik serta pemahaman saya mengenai pentingnya <strong>Etika Profesi IT</strong> dalam dunia rekayasa perangkat lunak.
+                        </p>
+                        <div style="display: flex; gap: 15px;">
+                            <a href="about.html" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.8rem;">
+                                <span>Selengkapnya Tentang Saya</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Highlight Stats Grid -->
+                    <div style="display: flex; flex-direction: column; justify-content: space-between; gap: 20px;">
+                        <div class="stats-grid" style="grid-template-columns: repeat(3, 1fr); gap: 15px;">
+                            <a href="projects.html" class="stat-card glass-card" style="padding: 20px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                                <div class="stat-icon-box" style="font-size: 1.8rem; margin-bottom: 10px;">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+                                <span class="stat-count" style="font-size: 1.6rem; color: var(--color-primary-dark);">4</span>
+                                <span class="stat-desc" style="font-size: 0.75rem;">Proyek IT</span>
+                            </a>
+                            
+                            <a href="about.html#certifications-showcase" class="stat-card glass-card" style="padding: 20px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                                <div class="stat-icon-box" style="font-size: 1.8rem; margin-bottom: 10px;">
+                                    <i class="fa-solid fa-award"></i>
+                                </div>
+                                <span class="stat-count" style="font-size: 1.6rem; color: var(--color-primary-dark);">2</span>
+                                <span class="stat-desc" style="font-size: 0.75rem;">Sertifikasi</span>
+                            </a>
+                            
+                            <a href="projects.html#skills-showcase" class="stat-card glass-card" style="padding: 20px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                                <div class="stat-icon-box" style="font-size: 1.8rem; margin-bottom: 10px;">
+                                    <i class="fa-solid fa-gears"></i>
+                                </div>
+                                <span class="stat-count" style="font-size: 1.6rem; color: var(--color-primary-dark);">13+</span>
+                                <span class="stat-desc" style="font-size: 0.75rem;">Skill & Tools</span>
+                            </a>
+                        </div>
+
+                        <!-- IT Ethics Commitment Card -->
+                        <div class="glass-card" style="padding: 20px; border-left: 5px solid var(--color-secondary); border-radius: 12px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+                            <div>
+                                <h4 style="font-family: var(--font-primary); font-weight:700; color: var(--color-secondary); margin-bottom: 5px;">
+                                    💼 Komitmen Etika Profesi IT
+                                </h4>
+                                <p style="font-size: 0.85rem; color: var(--color-navy-light); line-height: 1.5; margin-bottom: 15px;">
+                                    Sebagai tenaga ahli IT, integritas moral adalah jangkar. Saya mengintegrasikan prinsip kerahasiaan data pribadi, hak kekayaan intelektual (HAKI), dan transparansi informasi di setiap sistem.
+                                </p>
+                            </div>
+                            <a href="about.html#ethics" class="btn btn-outline" style="padding: 10px 20px; font-size: 0.8rem; border-color: var(--color-secondary); color: var(--color-secondary); align-self: flex-start;">
+                                <span>Lihat Kode Etik</span>
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Projects Highlight Teaser -->
+        <section class="teaser-section" style="padding: 80px 0; background: linear-gradient(180deg, var(--color-bg-light) 0%, var(--color-white) 100%);">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Portofolio Pilihan</span>
+                    <h2 class="section-title">Highlight Proyek</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="projects-grid" style="grid-template-columns: repeat(2, 1fr);">
+                    <!-- Teaser Project 1: Website UMKM Syamama Kitchen -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-wrapper">
+                            <img src="proj-syamama.png" alt="Website UMKM Syamama Kitchen Project Image" class="project-image">
+                            <a href="https://syamama.shop/" target="_blank" rel="noopener noreferrer" class="project-overlay">
+                                <div class="project-overlay-icon"><i class="fa-solid fa-link"></i></div>
+                            </a>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag-badge">Web Design & UMKM Link</span>
+                            <h3 class="project-name">Website UMKM Syamama Kitchen</h3>
+                            <p class="project-desc">
+                                Digitalisasi bisnis kuliner UMKM lokal dengan katalog online terintegrasi belanja menu makanan langsung di Kepulauan Riau.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-pill">HTML5</span>
+                                <span class="tech-pill">Vanilla CSS</span>
+                                <span class="tech-pill">JavaScript</span>
+                                <span class="tech-pill">Responsive</span>
+                            </div>
+                            <a href="https://syamama.shop/" target="_blank" rel="noopener noreferrer" class="project-link">
+                                Kunjungi Situs <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Teaser Project 2: Smart Kurir -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-wrapper">
+                            <img src="proj-kurir.png" alt="Smart Kurir Project Image" class="project-image">
+                            <div class="project-overlay">
+                                <div class="project-overlay-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag-badge">Web Application</span>
+                            <h3 class="project-name">Smart Kurir</h3>
+                            <p class="project-desc">
+                                Sistem logistik pelacakan kurir terpadu yang didesain secara spesifik untuk mempermudah distribusi barang antar wilayah kepulauan.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-pill">PHP</span>
+                                <span class="tech-pill">MySQL</span>
+                                <span class="tech-pill">Logistics tracking</span>
+                            </div>
+                            <a href="projects.html" class="project-link">
+                                Detail Selengkapnya <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="projects.html" class="btn btn-outline">Lihat Semua Proyek IT</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 4. Footer Section -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-social-links">
+                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Nia Syahfitri. All Rights Reserved. | Mahasiswa Teknik Informatika UMRAH</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" class="back-to-top-btn" aria-label="Kembali ke atas">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>

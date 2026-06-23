@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Koleksi Proyek Teknologi & Keahlian Koding Nia Syahfitri - Front-End Web, UI/UX, dan Mobile Apps.">
+    <meta name="author" content="Nia Syahfitri">
+    <title>Nia Syahfitri | Portofolio Proyek & Keahlian</title>
+    
+    <!-- Favicon (Emoji) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+
+    <!-- Header Navigation (Permanent Solid mode) -->
+    <header class="navbar navbar-solid">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-bold">Nia</span>Syahfitri
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link active">Project</a>
+                <a href="creative.html" class="nav-link">Creative</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container with Entrance Animation -->
+    <main class="page-wrapper" style="padding-top: 100px;">
+
+        <!-- Skills Section -->
+        <section id="skills-showcase" class="skills-section" style="padding: 60px 0;">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Kompetensi Teknis & Non-Teknis</span>
+                    <h2 class="section-title">Skills & Tools</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-layout">
+                    <!-- Hard Skills -->
+                    <div class="skills-card-group glass-card">
+                        <h3 class="skills-group-title"><i class="fa-solid fa-laptop-code text-primary"></i> Hard Skills</h3>
+                        <div class="skills-list">
+                            <div class="skill-badge"><i class="fa-brands fa-html5 text-orange"></i> HTML</div>
+                            <div class="skill-badge"><i class="fa-brands fa-css3-alt text-blue"></i> CSS</div>
+                            <div class="skill-badge"><i class="fa-brands fa-js text-yellow"></i> JavaScript</div>
+                            <div class="skill-badge"><i class="fa-brands fa-php text-purple"></i> PHP</div>
+                            <div class="skill-badge"><i class="fa-solid fa-database text-database"></i> MySQL</div>
+                            <div class="skill-badge"><i class="fa-solid fa-mobile-screen-button text-flutter"></i> Flutter</div>
+                            <div class="skill-badge"><i class="fa-solid fa-fire text-orange"></i> Firebase</div>
+                            <div class="skill-badge"><i class="fa-solid fa-fire-flame-simple text-ci"></i> CodeIgniter 4</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Soft Skills -->
+                    <div class="skills-card-group glass-card">
+                        <h3 class="skills-group-title"><i class="fa-solid fa-people-arrows text-primary"></i> Soft Skills</h3>
+                        <div class="skills-list">
+                            <div class="skill-badge"><i class="fa-solid fa-comments text-primary"></i> Communication</div>
+                            <div class="skill-badge"><i class="fa-solid fa-users text-primary"></i> Teamwork</div>
+                            <div class="skill-badge"><i class="fa-solid fa-user-tie text-primary"></i> Leadership</div>
+                            <div class="skill-badge"><i class="fa-solid fa-lightbulb text-primary"></i> Problem Solving</div>
+                            <div class="skill-badge"><i class="fa-solid fa-clock text-primary"></i> Time Management</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Grid Section -->
+        <section id="projects-grid-showcase" class="projects-section" style="padding: 80px 0; background-color: var(--color-white);">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Karya Koding Nyata</span>
+                    <h2 class="section-title">Projects Showcase</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Website UMKM Syamama Kitchen -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-wrapper">
+                            <img src="proj-syamama.png" alt="Website UMKM Syamama Kitchen Project Image" class="project-image">
+                            <a href="https://syamama.shop/" target="_blank" rel="noopener noreferrer" class="project-overlay">
+                                <div class="project-overlay-icon"><i class="fa-solid fa-link"></i></div>
+                            </a>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag-badge">Web Design & UMKM Link</span>
+                            <h3 class="project-name">Website UMKM Syamama Kitchen</h3>
+                            <p class="project-desc">
+                                Website profil bisnis makanan dan katalog online terintegrasi guna mendigitalisasi operasional dan pemasaran UMKM kuliner di Kepulauan Riau.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-pill">HTML5</span>
+                                <span class="tech-pill">Vanilla CSS</span>
+                                <span class="tech-pill">JavaScript</span>
+                                <span class="tech-pill">Responsive</span>
+                            </div>
+                            <a href="https://syamama.shop/" target="_blank" rel="noopener noreferrer" class="project-link">
+                                Kunjungi Situs <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Smart Kurir -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-wrapper">
+                            <img src="proj-kurir.png" alt="Smart Kurir Project Image" class="project-image">
+                            <div class="project-overlay">
+                                <div class="project-overlay-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag-badge">Web Application</span>
+                            <h3 class="project-name">Smart Kurir</h3>
+                            <p class="project-desc">
+                                Aplikasi web manajemen kurir logistik dan pelacakan pengiriman paket real-time, dioptimalkan demi menunjang distribusi antar pulau.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-pill">PHP</span>
+                                <span class="tech-pill">MySQL</span>
+                                <span class="tech-pill">Bootstrap</span>
+                                <span class="tech-pill">Logistics</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3: Sistem Arsip Digital (SIAD) -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-wrapper">
+                            <img src="proj-siad.png" alt="Sistem Arsip Digital (SIAD) Project Image" class="project-image">
+                            <div class="project-overlay">
+                                <div class="project-overlay-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag-badge">Information System</span>
+                            <h3 class="project-name">Sistem Arsip Digital (SIAD)</h3>
+                            <p class="project-desc">
+                                Platform penataarsipan surat dinas dan manajemen berkas dokumen digital berbasis web yang aman, terintegrasi, dan terstruktur.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-pill">CodeIgniter 4</span>
+                                <span class="tech-pill">MySQL</span>
+                                <span class="tech-pill">Web Security</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 4: Sistem Informasi Kos Berbasis Flutter -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-wrapper">
+                            <img src="proj-kos.png" alt="Sistem Informasi Kos Berbasis Flutter Project Image" class="project-image">
+                            <div class="project-overlay">
+                                <div class="project-overlay-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag-badge">Mobile Application</span>
+                            <h3 class="project-name">Sistem Informasi Kos (Flutter)</h3>
+                            <p class="project-desc">
+                                Aplikasi pencarian kamar kos mahasiswa berbasis Flutter yang mempermudah pencarian akomodasi terdekat di lingkungan kampus.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-pill">Flutter</span>
+                                <span class="tech-pill">Dart</span>
+                                <span class="tech-pill">Firebase</span>
+                                <span class="tech-pill">Mobile App</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-social-links">
+                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Nia Syahfitri. All Rights Reserved. | Mahasiswa Teknik Informatika UMRAH</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" class="back-to-top-btn" aria-label="Kembali ke atas">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sisi Kreatif, Hobi, Music Player Interaktif, dan Statistik Game oleh Nia Syahfitri - Mahasiswa Teknik Informatika UMRAH.">
+    <meta name="author" content="Nia Syahfitri">
+    <title>Nia Syahfitri | Creative Corner & Hobbies</title>
+    
+    <!-- Favicon (Emoji) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+
+    <!-- Header Navigation (Permanent Solid mode) -->
+    <header class="navbar navbar-solid">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-bold">Nia</span>Syahfitri
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Project</a>
+                <a href="creative.html" class="nav-link active">Creative</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container with Entrance Animation -->
+    <main class="page-wrapper" style="padding-top: 100px;">
+
+        <!-- Creative Corner Intro -->
+        <section id="creative" class="creative-section" style="padding: 60px 0;">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Kreativitas & Keseimbangan</span>
+                    <h2 class="section-title">Creative Corner</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <p class="ethics-intro" style="max-width: 800px; margin-bottom: 40px;">
+                    Selain memprogram baris kode, saya senang menyeimbangkan hidup dengan hobi yang menyenangkan. Menonton film inspiratif, mendengarkan musik favorit, dan bernyanyi membantu merilekskan pikiran serta mengasah intuisi kreatif dalam merancang produk perangkat lunak.
+                </p>
+
+                <!-- Lifestyle Hobbies Grid -->
+                <div class="creative-hobbies-grid">
+                    <!-- Card 1: Watching Movies & K-Drama -->
+                    <div class="hobby-card glass-card">
+                        <div class="hobby-icon"><i class="fa-solid fa-film"></i></div>
+                        <h4 class="hobby-title">Menonton Film & K-Drama</h4>
+                        <p class="hobby-desc">Menikmati tayangan film fiksi ilmiah dan serial drama Korea berkualitas membantu saya melatih daya imajinasi, melihat sudut pandang kehidupan yang hangat, serta merilekskan pikiran setelah fokus menulis kode pemrograman.</p>
+                    </div>
+
+                    <!-- Card 2: Listening to Music -->
+                    <div class="hobby-card glass-card">
+                        <div class="hobby-icon"><i class="fa-solid fa-headphones"></i></div>
+                        <h4 class="hobby-title">Mendengarkan Musik</h4>
+                        <p class="hobby-desc">Mendengarkan musik adalah teman terbaik saya saat belajar atau menulis kode. Beberapa lagu favorit saya saat ini adalah <strong>Risk It All</strong> (Bruno Mars), <strong>Jatuh Suka</strong> (Tulus), dan <strong>everything</strong> (Ariana Grande).</p>
+                    </div>
+
+                    <!-- Card 3: Singing -->
+                    <div class="hobby-card glass-card">
+                        <div class="hobby-icon"><i class="fa-solid fa-microphone-lines"></i></div>
+                        <h4 class="hobby-title">Bernyanyi</h4>
+                        <p class="hobby-desc">Menyanyikan lagu-lagu favorit menjadi sarana mengekspresikan diri secara bebas, melepas kepenatan, sekaligus mengembalikan suasana hati dan energi positif yang menyenangkan.</p>
+                    </div>
+                </div>
+
+                <!-- Hobbies & Other Interests -->
+                <div class="section-header" style="margin-top: 80px;">
+                    <span class="section-tag">Ketertarikan Lain</span>
+                    <h3 class="sub-section-title" style="justify-content: center; margin-bottom: 0;">Hobi & Minat Kreatif</h3>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="creative-hobbies-grid">
+                    <!-- Card 1: UI Design Mockups -->
+                    <div class="hobby-card glass-card">
+                        <div class="hobby-icon"><i class="fa-solid fa-bezier-curve"></i></div>
+                        <h4 class="hobby-title">Eksplorasi UI Design</h4>
+                        <p class="hobby-desc">Mencoba melatih insting visual dengan merancang ulang antarmuka aplikasi harian secara mandiri untuk portofolio dribbble/behance.</p>
+                    </div>
+
+                    <!-- Card 2: Digital Illustration -->
+                    <div class="hobby-card glass-card">
+                        <div class="hobby-icon"><i class="fa-solid fa-palette"></i></div>
+                        <h4 class="hobby-title">Ilustrasi Digital</h4>
+                        <p class="hobby-desc">Senang menggambar ornamen visual sederhana menggunakan tablet grafis untuk melatih komposisi warna dan keseimbangan bentuk.</p>
+                    </div>
+
+                    <!-- Card 3: Reading & Self Development -->
+                    <div class="hobby-card glass-card">
+                        <div class="hobby-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+                        <h4 class="hobby-title">Pengembangan Diri</h4>
+                        <p class="hobby-desc">Membaca buku non-fiksi mengenai psikologi perilaku, manajemen waktu, serta produktivitas harian untuk membangun rutinitas positif.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-social-links">
+                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Nia Syahfitri. All Rights Reserved. | Mahasiswa Teknik Informatika UMRAH</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" class="back-to-top-btn" aria-label="Kembali ke atas">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>

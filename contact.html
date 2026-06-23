@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hubungi Nia Syahfitri - Kirim pesan langsung melalui form kontak terintegrasi Formspree.">
+    <meta name="author" content="Nia Syahfitri">
+    <title>Nia Syahfitri | Hubungi Saya</title>
+    
+    <!-- Favicon (Emoji) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+
+    <!-- Header Navigation (Permanent Solid mode) -->
+    <header class="navbar navbar-solid">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-bold">Nia</span>Syahfitri
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Project</a>
+                <a href="creative.html" class="nav-link">Creative</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </nav>
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container with Entrance Animation -->
+    <main class="page-wrapper" style="padding-top: 100px;">
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section" style="padding: 60px 0;">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Hubungi Saya</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Contact Cards / Info -->
+                    <div class="contact-info-col">
+                        <div class="contact-info-desc">
+                            <h3 style="font-family: var(--font-primary); font-size: 1.4rem; margin-bottom: 12px; color: var(--color-navy-dark);">
+                                Mari Berdiskusi!
+                            </h3>
+                            <p style="color: var(--color-navy-light); font-size: 0.95rem; line-height: 1.6; margin-bottom: 25px;">
+                                Jika Anda ingin menghubungi saya atau mendiskusikan sesuatu seputar dunia teknologi, silakan kirimkan pesan Anda melalui formulir kontak atau hubungi saya langsung di bawah ini.
+                            </p>
+                        </div>
+                        
+                        <div class="contact-cards-container" style="display: flex; flex-direction: column; gap: 15px;">
+                            <!-- Email Card -->
+                            <div class="contact-detail-card glass-card" style="padding: 15px 20px; display: flex; align-items: center; gap: 15px;">
+                                <div class="contact-detail-icon" style="font-size: 1.4rem; color: var(--color-primary);">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <span style="font-size: 0.75rem; text-transform: uppercase; color: #64748B; font-weight:600; display:block;">Email</span>
+                                    <a href="mailto:niaasyahfitri@gmail.com" style="font-size: 0.9rem; font-weight: 500;" class="contact-link">niaasyahfitri@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <!-- Address Card -->
+                            <div class="contact-detail-card glass-card" style="padding: 15px 20px; display: flex; align-items: center; gap: 15px;">
+                                <div class="contact-detail-icon" style="font-size: 1.4rem; color: var(--color-primary);">
+                                    <i class="fa-solid fa-map-location-dot"></i>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <span style="font-size: 0.75rem; text-transform: uppercase; color: #64748B; font-weight:600; display:block;">Domisili</span>
+                                    <span style="font-size: 0.9rem; font-weight: 500;">Bintan Timur, Kepulauan Riau, Indonesia</span>
+                                </div>
+                            </div>
+
+                            <!-- Social Links Card -->
+                            <div class="contact-detail-card glass-card" style="padding: 15px 20px; display: flex; align-items: center; gap: 15px;">
+                                <div class="contact-detail-icon" style="font-size: 1.4rem; color: var(--color-primary);">
+                                    <i class="fa-solid fa-hashtag"></i>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <span style="font-size: 0.75rem; text-transform: uppercase; color: #64748B; font-weight:600; display:block;">Media Sosial</span>
+                                    <div class="social-links-row" style="display: flex; gap: 12px; margin-top: 5px;">
+                                        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" style="font-size: 1.1rem; color: var(--color-navy-light);" class="social-icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" style="font-size: 1.1rem; color: var(--color-navy-light);" class="social-icon-btn"><i class="fa-brands fa-github"></i></a>
+                                        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" style="font-size: 1.1rem; color: var(--color-navy-light);" class="social-icon-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form Box -->
+                    <div class="contact-form-col">
+                        <form id="contactForm" class="contact-form glass-card">
+                            <div class="form-group">
+                                <label for="formName" class="form-label">Nama Lengkap</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-user input-icon"></i>
+                                    <input type="text" id="formName" name="name" class="form-input" placeholder="Masukkan nama Anda..." required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="formEmail" class="form-label">Alamat Email</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-envelope input-icon"></i>
+                                    <input type="email" id="formEmail" name="email" class="form-input" placeholder="contoh@email.com" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="formMessage" class="form-label">Pesan</label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-message input-icon textarea-icon"></i>
+                                    <textarea id="formMessage" name="message" rows="5" class="form-input form-textarea" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-submit" style="width: 100%;">
+                                <span>Kirim Pesan</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-social-links">
+                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Nia Syahfitri. All Rights Reserved. | Mahasiswa Teknik Informatika UMRAH</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification for Form Feedback -->
+    <div id="toastNotification" class="toast">
+        <div class="toast-content">
+            <i class="fa-solid fa-circle-check toast-icon"></i>
+            <div class="toast-message">
+                <span class="toast-title">Pesan Terkirim!</span>
+                <span class="toast-desc">Terima kasih, saya akan segera menghubungi Anda.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" class="back-to-top-btn" aria-label="Kembali ke atas">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
